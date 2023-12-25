@@ -1,0 +1,95 @@
+.game-section:hover .game-image {
+    transform: scale(1.1);
+}
+
+
+
+* {     
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.game-section {
+    flex: 0 0 calc(25% - 40px);
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.game-image {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    transition: transform 0.3s ease;
+}
+.game-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#333;
+} 
+.game-info:hover{
+    color:light pink;
+}
+footer{
+    color:#fff;
+    background-color:#333;
+    height:20xp;
+    text-align:center;
+}
